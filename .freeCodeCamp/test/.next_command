@@ -163,3 +163,12 @@ ls --color=auto -l expected_output.txt
 diff expected_output.txt queries_result.txt
 diff --color expected_output.txt queries_result.txt
 diff --color expected_output.txt queries_result.txt
+git init
+psql --username=freecodecamp --dbname=postgres
+pg_dump -cC --inserts -U freecodecamp worldcup > worldcup.sql
+git init
+exit
+echo ".freeCodeCamp/" >> .gitignore
+echo ".vscode/" >> .gitignore
+git init
+git add .
