@@ -1,0 +1,1 @@
+RDB certification project from freeCodeCamp - where 2 scripts are developed: a script to insert in PostgresDB from a World Cup data CSV file, and a script to manipulate PostgresDB to obtain required outcome.
